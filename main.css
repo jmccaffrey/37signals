@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: Times, serif;
+	vertical-align: baseline;
+}
+
+HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}	
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	font-family: Times, serif;
+	text-align: center;
+}
+
+
+/* For this project, I used "inspect element" 
+to determine the font sizes and colors.  The rest, e.g., padding and margins, is guesswork. */
+
+.nav {
+	height: 60px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	margin: 25px 50px 0px 50px;
+}
+
+.day {
+	float: left;
+	color: #999;
+}
+
+.links ul {
+	float: right;
+}
+
+.links ul li {
+	display: inline;
+	padding: 5px;
+	margin: 0px 5px;
+}
+
+.nav li a:link {
+	color: #369;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	color: black;
+	font-size: 14px;
+}
+
+.nav li a:active {
+	color: black;
+	font-size: 14px;
+}
+
+.nav li a:visited {
+	color: green;
+}
+
+.nav li:last-child {
+	color: #18afe0;
+}
+
+.nav li:last-child a:visited {
+	color: green;
+}
+
+img {
+	display: inline-block;
+	margin: 0px auto 20px auto;
+}
+
+section {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+h1 {
+	font-size: 52px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 18px;
+/*	font-weight: 500; 37 Signals has the text weight as "500"  It works; however, 
+it doesn't give the result I want. So I set the opacity */
+	opacity: 0.75;
+	color: #222;
+}
+
+h3	{
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 18px;
+	opacity: 0.75;
+	color: #222;
+}
+
+.products {
+	margin: 10px auto;
+}
+
+.products ul li {
+	display: inline-block;
+	/* All of the following from CSS Gradient Background Maker */
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #EFEFEF 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #EFEFEF 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top left, #FFFFFF 0%, #EFEFEF 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #EFEFEF));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top left, #FFFFFF 0%, #EFEFEF 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom right, #FFFFFF 0%, #EFEFEF 100%);
+	border: 2px solid #efefef;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 20px;
+}
+
+.products ul li img {
+	margin: 20px 25px 10px 25px;
+}
+
+h5 {
+	font-size: 21px;
+	font-style: bold;
+	color: #369;
+	text-decoration: underline;
+}
+
+h6 {
+	font-size: 14px;
+	color: #cc0000;
+	font-style: bold;
+
+}
+
+h7 {
+	font-size: 14px;
+	color: #222;
+}
+
+h5, h6, h7 {
+	margin-bottom: 15px;
+}
+
+sup {
+	display: inline-block;
+	font-size: 11px;
+	color: #999;
+	vertical-align: super;
+}
+
+#close img {
+	display: inline-block;
+	font-size: 12px;
+	margin-top: 15px;
+}
