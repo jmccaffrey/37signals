@@ -120,7 +120,7 @@ to determine the font sizes and colors.  The rest, e.g., padding and margins, is
 .section {
 	/*clear: both;*/
 	margin: auto;
-	/*width: 821px;*/
+	width: 821px;
 	/*position: relative;*/
 	/*top: 40px;*/
 }
