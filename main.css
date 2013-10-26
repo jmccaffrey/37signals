@@ -107,36 +107,64 @@ to determine the font sizes and colors.  The rest, e.g., padding and margins, is
 	color: green;
 }
 
-#box img {
-	display: inline-block;
-	margin: 0px auto 20px auto;
-}
-
-section {
-	display: block;
-}
-
 .hide {
 	display: none;
 }
 
-.arrow ul li {
-	position: relative;
-	width: 192px;
-	display: inline-block;
-	border: 2px transparent;
-	padding: 5px;
-	margin-top: 10px;
+/*#box img {*/
+/*	display: inline-block;*/
+/*	margin: 0px auto 20px auto;*/
+/*}*/
+
+/* top section positioning and style*/
+.section {
+	/*clear: both;*/
+	margin: auto;
+	/*width: 821px;*/
+	/*position: relative;*/
+	/*top: 40px;*/
 }
 
-.arrow-1 img, .arrow-2 img, .arrow-3 img {
-	z-index: 2;
+
+/*give the individual sections a relative position and defined height*/
+.box div {
+    position: relative;
+    height:    230px;
+}
+.arrow {
+    position: absolute;
+	z-index: 1;
+	bottom: -30px;
+}
+.arrow-1 {
+	right: 500px;
 }
 
-.arrow-1 img, .arrow-2 img {
-	margin-left: 250;
-	margin-bottom: -100;
+.arrow-2 {
+	right: 300px;
 }
+
+.arrow-3 {
+	right: 240px;
+}
+
+/*.arrow ul li {*/
+/*	position: relative;*/
+/*	width: 192px;*/
+/*	display: inline-block;*/
+/*	border: 2px transparent;*/
+/*	padding: 5px;*/
+/*	margin-top: 10px;*/
+/*}*/
+
+/*.arrow-1 img, .arrow-2 img, .arrow-3 img {*/
+/*	z-index: 2;*/
+/*}*/
+
+/*.arrow-1 img, .arrow-2 img {*/
+/*	margin-left: 250;*/
+/*	margin-bottom: -100;*/
+/*}*/
 
 h1 {
 	font-size: 52px;
